@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.javakar.springbootbestpractices.authentication.request;
 
 import lombok.Getter;
@@ -15,3 +16,22 @@ public class LoginRequest {
     private String password;
 
 }
+=======
+package com.javakar.springbootbestpractices.authentication.request;
+
+import lombok.Getter;
+import lombok.Setter;
+
+import javax.validation.constraints.NotBlank;
+
+@Getter
+@Setter
+public class LoginRequest {
+
+    @NotBlank
+    private String username;
+    @NotBlank
+    private String password;
+
+}
+>>>>>>> origin/main

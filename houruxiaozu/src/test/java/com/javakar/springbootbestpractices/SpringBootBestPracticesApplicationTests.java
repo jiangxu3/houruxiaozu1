@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.javakar.springbootbestpractices;
 
 import org.junit.jupiter.api.Test;
@@ -11,3 +12,18 @@ class SpringBootBestPracticesApplicationTests {
     }
 
 }
+=======
+package com.javakar.springbootbestpractices;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class SpringBootBestPracticesApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+}
+>>>>>>> origin/main
